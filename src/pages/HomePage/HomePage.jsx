@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { QuestionCard } from "../../components/QuestionCard";
 import { API_URL } from "../../constants";
 import { QuestionCardList } from "../../components/QuestionCardList";
+import { Loader } from "../../components/Loader";
 // import cls from "./HomePage.module.css";
 
 export const HomePage = () => {
@@ -13,7 +14,6 @@ export const HomePage = () => {
       const questions = await response.json();
 
       setQuestions(questions);
-      console.log("questions", questions);
     } catch (error) {
       console.error(error);
     }
@@ -24,6 +24,7 @@ export const HomePage = () => {
   }, []);
   return (
     <>
+      <Loader />
       <QuestionCardList cards={questions} />
     </>
   );
