@@ -564,6 +564,39 @@
       "resources": [],
       "level": 1,
       "completed": false
+    },
+    {
+      "id": "578a",
+      "question": "How much i need to learn React?",
+      "answer": "100 years",
+      "description": "Too much but maybe not",
+      "resources": [
+        "\"http://my-head.com.ua\""
+      ],
+      "level": 2,
+      "completed": false
+    },
+    {
+      "id": "007f",
+      "question": "What it means to be a human?",
+      "answer": "error",
+      "description": "Massive error attack on my head",
+      "resources": [
+        "https://google.com"
+      ],
+      "level": 3,
+      "completed": false
+    },
+    {
+      "id": "371c",
+      "question": "What your favorite movie?",
+      "answer": "Requiem for a dream",
+      "description": "sad true",
+      "resources": [
+        "https://imdb.com"
+      ],
+      "level": 1,
+      "completed": false
     }
   ]
 }
