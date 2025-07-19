@@ -5,10 +5,7 @@
       "question": "Що таке React?",
       "answer": "React — це бібліотека для створення користувацьких інтерфейсів.",
       "description": "React — це JavaScript-бібліотека, розроблена Facebook, яка використовується для побудови UI з компонентним підходом. React дозволяє створювати інтерфейси з окремих частин, які називаються компонентами.",
-      "resources": [
-        "https://react.dev",
-        "https://react.dev/reference/react"
-      ],
+      "resources": ["https://react.dev", "https://react.dev/reference/react"],
       "level": 1,
       "completed": true,
       "editDate": "03.02.2025, 19:49"
@@ -18,9 +15,7 @@
       "question": "Що таке JSX?",
       "answer": "JSX — це синтаксичне розширення JavaScript для React.",
       "description": "JSX дозволяє писати HTML-подібний код у JavaScript, який потім компілюється у виклики `React.createElement`. Він спрощує створення та візуалізацію структури компонентів.",
-      "resources": [
-        "https://react.dev/learn/writing-markup-with-jsx"
-      ],
+      "resources": ["https://react.dev/learn/writing-markup-with-jsx"],
       "level": 2,
       "completed": true,
       "editDate": "03.02.2025, 20:25"
@@ -30,9 +25,7 @@
       "question": "Який основний принцип роботи React?",
       "answer": "React використовує Virtual DOM для оптимізації рендерингу.",
       "description": "React використовує концепцію Virtual DOM — це представлення реального DOM у пам'яті. Коли стан компонента змінюється, React порівнює Virtual DOM з попереднім станом та оновлює лише змінені елементи на сторінці.",
-      "resources": [
-        "https://react.dev/learn/render-and-commit"
-      ],
+      "resources": ["https://react.dev/learn/render-and-commit"],
       "level": 2,
       "completed": true,
       "editDate": "03.02.2025, 19:01"
@@ -42,9 +35,7 @@
       "question": "Як створити компонент у React?🍩",
       "answer": "Компонент можна створити як функцію або клас.",
       "description": "Функціональні компоненти — це функції, які приймають `props` і повертають JSX. Класові компоненти — це класи, які наслідуються від `React.Component`, з методом `render`.",
-      "resources": [
-        "https://react.dev/learn/your-first-component"
-      ],
+      "resources": ["https://react.dev/learn/your-first-component"],
       "level": 1,
       "completed": false,
       "editDate": "21.02.2025, 20:26"
@@ -54,9 +45,7 @@
       "question": "Що таке props у React?",
       "answer": "Props — це вхідні параметри компонентів.",
       "description": "Props (властивості) використовуються для передачі даних від батьківського компонента до дочірнього. Вони незмінні всередині компонента та роблять компоненти гнучкішими і багаторазовими.",
-      "resources": [
-        "https://react.dev/learn/passing-props-to-a-component"
-      ],
+      "resources": ["https://react.dev/learn/passing-props-to-a-component"],
       "level": 1,
       "completed": false
     },
@@ -65,9 +54,7 @@
       "question": "Що таке стан (state) у React?",
       "answer": "State — це внутрішні дані компонента, які можуть змінюватися.",
       "description": "Стан керується всередині компонента та змінюється через `setState` у класових компонентах або `useState` у функціональних. Зміна стану ініціює повторний рендер компонента.",
-      "resources": [
-        "https://react.dev/learn/state-a-components-memory"
-      ],
+      "resources": ["https://react.dev/learn/state-a-components-memory"],
       "level": 2,
       "completed": true
     },
@@ -76,9 +63,7 @@
       "question": "Як працює useState у React?",
       "answer": "useState — це хук для керування станом у функціональних компонентах.",
       "description": "`useState` повертає масив із двох елементів: поточного значення стану та функції для його оновлення. Використовується для зберігання та зміни даних у компонентах.",
-      "resources": [
-        "https://react.dev/reference/react/useState"
-      ],
+      "resources": ["https://react.dev/reference/react/useState"],
       "level": 2,
       "completed": true
     },
@@ -87,9 +72,7 @@
       "question": "Що таке useEffect?",
       "answer": "useEffect — це хук для керування побічними ефектами.",
       "description": "Хук `useEffect` дозволяє виконувати побічні ефекти, такі як запити до API, підписки та маніпуляції з DOM. Він викликається після рендерингу та може залежати від певних значень.",
-      "resources": [
-        "https://react.dev/reference/react/useEffect"
-      ],
+      "resources": ["https://react.dev/reference/react/useEffect"],
       "level": 2,
       "completed": true
     },
@@ -98,9 +81,7 @@
       "question": "Що таке React Router?",
       "answer": "React Router — це бібліотека для маршрутизації у React.",
       "description": "React Router дозволяє організовувати навігацію у додатку, надаючи такі компоненти, як `BrowserRouter`, `Routes`, `Route` та `Link`. Він підтримує динамічні маршрути та вкладені структури.",
-      "resources": [
-        "https://reactrouter.com/en/main"
-      ],
+      "resources": ["https://reactrouter.com/en/main"],
       "level": 2,
       "completed": false
     },
@@ -109,9 +90,7 @@
       "question": "Як оптимізувати продуктивність React-додатку?",
       "answer": "Використовуйте React.memo, useMemo, useCallback та оптимізацію рендерингу.",
       "description": "Для підвищення продуктивності можна використовувати `React.memo` для мемоїзації компонентів, `useMemo` та `useCallback` для запобігання непотрібних перестворень функцій і даних, а також Code Splitting і Lazy Loading.",
-      "resources": [
-        "https://react.dev/learn/keeping-components-pure"
-      ],
+      "resources": ["https://react.dev/learn/keeping-components-pure"],
       "level": 3,
       "completed": true
     },
@@ -120,9 +99,7 @@
       "question": "Що таке Virtual DOM у React?",
       "answer": "Virtual DOM — це представлення реального DOM у пам'яті.",
       "description": "Virtual DOM — це концепція, яку використовує React для оптимізації оновлень інтерфейсу. React порівнює старий і новий Virtual DOM та змінює лише змінені елементи у реальному DOM.",
-      "resources": [
-        "https://react.dev/learn/render-and-commit"
-      ],
+      "resources": ["https://react.dev/learn/render-and-commit"],
       "level": 2,
       "completed": false
     },
@@ -131,9 +108,7 @@
       "question": "Як працює React.memo?",
       "answer": "React.memo — це HOC для мемоїзації функціональних компонентів.",
       "description": "React.memo запобігає повторному рендеру компонента, якщо його пропси не змінилися. Це допомагає оптимізувати продуктивність, уникнувши непотрібних ререндерів.",
-      "resources": [
-        "https://react.dev/reference/react/memo"
-      ],
+      "resources": ["https://react.dev/reference/react/memo"],
       "level": 3,
       "completed": false
     },
@@ -142,9 +117,7 @@
       "question": "Що робить useCallback?",
       "answer": "useCallback мемоїзує функцію та повертає її незмінною між рендерами.",
       "description": "useCallback використовується для оптимізації продуктивності, запобігаючи перестворенню функцій при кожному рендері, якщо їхні залежності не змінилися.",
-      "resources": [
-        "https://react.dev/reference/react/useCallback"
-      ],
+      "resources": ["https://react.dev/reference/react/useCallback"],
       "level": 3,
       "completed": false
     },
@@ -153,9 +126,7 @@
       "question": "Що робить useMemo?",
       "answer": "useMemo мемоїзує обчислюване значення.",
       "description": "useMemo кешує результат обчислень між рендерами, якщо залежності не змінилися. Це корисно для оптимізації складних обчислень.",
-      "resources": [
-        "https://react.dev/reference/react/useMemo"
-      ],
+      "resources": ["https://react.dev/reference/react/useMemo"],
       "level": 3,
       "completed": false
     },
@@ -164,9 +135,7 @@
       "question": "Як працює обробка подій у React?",
       "answer": "React використовує систему синтетичних подій.",
       "description": "Події у React працюють через обгортку `SyntheticEvent`, яка забезпечує крос-браузерну сумісність та оптимізовану обробку.",
-      "resources": [
-        "https://react.dev/learn/responding-to-events"
-      ],
+      "resources": ["https://react.dev/learn/responding-to-events"],
       "level": 2,
       "completed": true
     },
@@ -175,9 +144,7 @@
       "question": "Що таке портали (Portals) у React?",
       "answer": "Портали дозволяють рендерити дочірні елементи поза батьківським DOM-вузлом.",
       "description": "За допомогою `ReactDOM.createPortal` можна рендерити елементи в інший DOM-контейнер, зберігаючи зв'язок із батьківським компонентом.",
-      "resources": [
-        "https://react.dev/reference/react-dom/createPortal"
-      ],
+      "resources": ["https://react.dev/reference/react-dom/createPortal"],
       "level": 3,
       "completed": false
     },
@@ -186,9 +153,7 @@
       "question": "Як реалізувати ліниве завантаження компонентів?",
       "answer": "Використовуйте React.lazy та Suspense.",
       "description": "React.lazy дозволяє завантажувати компоненти динамічно, а Suspense використовується для відображення заглушки під час завантаження.",
-      "resources": [
-        "https://react.dev/reference/react/lazy"
-      ],
+      "resources": ["https://react.dev/reference/react/lazy"],
       "level": 2,
       "completed": false
     },
@@ -197,9 +162,7 @@
       "question": "Що таке Context API?",
       "answer": "Context API — це механізм для передачі даних без проброску пропсів.",
       "description": "Context API використовується для керування глобальним станом додатку, наприклад, темою або мовою інтерфейсу.",
-      "resources": [
-        "https://react.dev/reference/react/createContext"
-      ],
+      "resources": ["https://react.dev/reference/react/createContext"],
       "level": 2,
       "completed": false
     },
@@ -208,9 +171,7 @@
       "question": "Як використовувати useContext?",
       "answer": "useContext дозволяє отримувати значення з контексту.",
       "description": "useContext приймає об'єкт контексту та повертає його поточне значення, дозволяючи отримувати дані без вкладених Consumer-компонентів.",
-      "resources": [
-        "https://react.dev/reference/react/useContext"
-      ],
+      "resources": ["https://react.dev/reference/react/useContext"],
       "level": 2,
       "completed": false
     },
@@ -219,9 +180,7 @@
       "question": "Що таке рендер-пропси?",
       "answer": "Render props — це патерн для передачі функцій як пропсів.",
       "description": "Цей патерн дозволяє передавати JSX-функцію як пропс у компонент, щоб гнучко керувати рендерингом дочірніх компонентів.",
-      "resources": [
-        "https://react.dev/learn/render-props"
-      ],
+      "resources": ["https://react.dev/learn/render-props"],
       "level": 3,
       "completed": false
     },
@@ -230,9 +189,7 @@
       "question": "Як можна оновити стан у класовому компоненті?",
       "answer": "За допомогою методу setState.",
       "description": "setState приймає новий об'єкт стану та оновлює компонент, викликаючи повторний рендер. Можна передавати функцію для оновлення на основі попереднього стану.",
-      "resources": [
-        "https://react.dev/reference/react/Component#setstate"
-      ],
+      "resources": ["https://react.dev/reference/react/Component#setstate"],
       "level": 1,
       "completed": false
     },
@@ -241,9 +198,7 @@
       "question": "Як працювати з формами у React?",
       "answer": "Використовуйте керовані та некеровані компоненти.",
       "description": "У керованих компонентах стан форми зберігається в state, а в некерованих — у DOM. Для роботи з формами застосовують useState, onChange та ref.",
-      "resources": [
-        "https://react.dev/learn/sharing-state-between-components"
-      ],
+      "resources": ["https://react.dev/learn/sharing-state-between-components"],
       "level": 2,
       "completed": false
     },
@@ -252,9 +207,7 @@
       "question": "Як передавати ref у дочірній компонент?",
       "answer": "Використовуйте forwardRef.",
       "description": "React.forwardRef дозволяє передавати ref всередину дочірнього компонента, щоб отримати доступ до його DOM-елемента або екземпляру.",
-      "resources": [
-        "https://react.dev/reference/react/forwardRef"
-      ],
+      "resources": ["https://react.dev/reference/react/forwardRef"],
       "level": 3,
       "completed": false
     },
@@ -263,9 +216,7 @@
       "question": "Як використовувати ключі (keys) у списках?",
       "answer": "Ключі допомагають React відрізняти елементи під час рендеру.",
       "description": "Ключі (`key`) використовуються у списках для ідентифікації елементів. Вони допомагають React ефективно оновлювати список, уникнувши непотрібних ререндерів.",
-      "resources": [
-        "https://react.dev/learn/rendering-lists"
-      ],
+      "resources": ["https://react.dev/learn/rendering-lists"],
       "level": 1,
       "completed": false
     },
@@ -274,9 +225,7 @@
       "question": "Що робить Strict Mode?",
       "answer": "StrictMode допомагає знаходити потенційні проблеми у коді.",
       "description": "StrictMode активує додаткові перевірки, попереджаючи про небезпечні методи життєвого циклу та інші помилки.",
-      "resources": [
-        "https://react.dev/reference/react/StrictMode"
-      ],
+      "resources": ["https://react.dev/reference/react/StrictMode"],
       "level": 2,
       "completed": false
     },
@@ -285,9 +234,7 @@
       "question": "Як працює useReducer?",
       "answer": "useReducer керує станом через редюсер-функцію.",
       "description": "useReducer корисний для складних станів. Він приймає редюсер-функцію та початковий стан, повертаючи поточний state та dispatch-функцію.",
-      "resources": [
-        "https://react.dev/reference/react/useReducer"
-      ],
+      "resources": ["https://react.dev/reference/react/useReducer"],
       "level": 3,
       "completed": false
     },
@@ -296,9 +243,7 @@
       "question": "Як відловлювати помилки у React-компонентах?",
       "answer": "Використовуйте Error Boundary.",
       "description": "Error Boundary — це компонент, який реалізує метод componentDidCatch. Він запобігає падінню всього додатку при помилці у дочірніх компонентах.",
-      "resources": [
-        "https://react.dev/learn/error-handling"
-      ],
+      "resources": ["https://react.dev/learn/error-handling"],
       "level": 3,
       "completed": false
     },
@@ -307,9 +252,7 @@
       "question": "Що робить хук useRef?",
       "answer": "useRef створює посилання, яке зберігається між рендерами.",
       "description": "useRef використовується для доступу до DOM-елементів або зберігання даних між рендерами без повторного рендеру.",
-      "resources": [
-        "https://react.dev/reference/react/useRef"
-      ],
+      "resources": ["https://react.dev/reference/react/useRef"],
       "level": 2,
       "completed": false
     },
@@ -318,9 +261,7 @@
       "question": "Як реалізувати серверний рендеринг (SSR) у React?",
       "answer": "Використовуйте Next.js або ReactDOMServer.",
       "description": "SSR дозволяє рендерити React-компоненти на сервері, покращуючи SEO та швидкість завантаження. У React для цього використовують Next.js або ReactDOMServer.",
-      "resources": [
-        "https://nextjs.org/docs"
-      ],
+      "resources": ["https://nextjs.org/docs"],
       "level": 3,
       "completed": false
     },
@@ -329,9 +270,7 @@
       "question": "Що таке фрагменти (React Fragments)?",
       "answer": "Фрагменти дозволяють групувати елементи без додавання зайвого вузла в DOM.",
       "description": "Фрагменти (`<></>` або `React.Fragment`) використовуються, щоб уникнути зайвих div-обгорток, що робить DOM-структуру чистішою.",
-      "resources": [
-        "https://react.dev/reference/react/Fragment"
-      ],
+      "resources": ["https://react.dev/reference/react/Fragment"],
       "level": 1,
       "completed": false
     },
@@ -340,9 +279,7 @@
       "question": "Як використовувати `useLayoutEffect`?",
       "answer": "`useLayoutEffect` виконується синхронно після рендеру, але перед відображенням на екрані.",
       "description": "Використовується, коли потрібно виміряти DOM перед його відображенням. Відрізняється від `useEffect`, який запускається після рендеру.",
-      "resources": [
-        "https://react.dev/reference/react/useLayoutEffect"
-      ],
+      "resources": ["https://react.dev/reference/react/useLayoutEffect"],
       "level": 3,
       "completed": false
     },
@@ -351,9 +288,7 @@
       "question": "Як працює `useImperativeHandle`?",
       "answer": "`useImperativeHandle` дозволяє керувати методами дочірнього компонента через `ref`.",
       "description": "`useImperativeHandle` використовується з `forwardRef` для керування поведінкою внутрішнього компонента з батьківського. Корисно для роботи зі сторонніми бібліотеками.",
-      "resources": [
-        "https://react.dev/reference/react/useImperativeHandle"
-      ],
+      "resources": ["https://react.dev/reference/react/useImperativeHandle"],
       "level": 3,
       "completed": false
     },
@@ -362,9 +297,7 @@
       "question": "Що таке HOC (Higher-Order Component)?",
       "answer": "HOC — це функція, яка приймає компонент і повертає новий компонент.",
       "description": "HOC використовуються для повторного використання логіки, наприклад, авторизації або обробки даних. Це патерн, замінений хуками, але іноді ще корисний.",
-      "resources": [
-        "https://react.dev/learn/reusing-logic-with-custom-hooks"
-      ],
+      "resources": ["https://react.dev/learn/reusing-logic-with-custom-hooks"],
       "level": 3,
       "completed": false
     },
@@ -385,9 +318,7 @@
       "question": "Що таке React Fiber?",
       "answer": "React Fiber — це новий алгоритм рендерингу в React.",
       "description": "React Fiber — це переписаний рушій React, який покращує продуктивність і підтримує такі функції, як призупинення та відновлення рендерингу. Він дозволяє React працювати асинхронно та пріоритизувати завдання.",
-      "resources": [
-        "https://react.dev/blog/2017/09/26/react-v16.0.html"
-      ],
+      "resources": ["https://react.dev/blog/2017/09/26/react-v16.0.html"],
       "level": 3,
       "completed": false
     },
@@ -396,9 +327,7 @@
       "question": "Як працює React Suspense?",
       "answer": "Suspense дозволяє відкладати рендеринг компонентів до завершення асинхронних операцій.",
       "description": "Suspense використовується для керування асинхронними операціями, такими як завантаження даних або ліниве завантаження компонентів. Він відображає fallback-компонент, поки дані не будуть готові.",
-      "resources": [
-        "https://react.dev/reference/react/Suspense"
-      ],
+      "resources": ["https://react.dev/reference/react/Suspense"],
       "level": 3,
       "completed": false
     },
@@ -407,9 +336,7 @@
       "question": "Що таке Concurrent Mode у React?",
       "answer": "Concurrent Mode — це набір функцій для покращення відгуку додатків.",
       "description": "Concurrent Mode дозволяє React працювати над кількома завданнями одночасно, пріоритизуючи їх і покращуючи користувацький досвід. Він включає такі функції, як Suspense та пріоритизація рендерингу.",
-      "resources": [
-        "https://react.dev/blog/2021/06/08/the-plan-for-react-18"
-      ],
+      "resources": ["https://react.dev/blog/2021/06/08/the-plan-for-react-18"],
       "level": 3,
       "completed": false
     },
@@ -418,9 +345,7 @@
       "question": "Як використовувати React DevTools?",
       "answer": "React DevTools — це інструмент для налагодження React-додатків.",
       "description": "React DevTools дозволяє інспектувати дерево компонентів, переглядати їхній стан і пропси, а також аналізувати продуктивність. Доступний як розширення для браузерів.",
-      "resources": [
-        "https://react.dev/learn/react-developer-tools"
-      ],
+      "resources": ["https://react.dev/learn/react-developer-tools"],
       "level": 1,
       "completed": false
     },
@@ -440,9 +365,7 @@
       "question": "Як використовувати React з TypeScript?",
       "answer": "React можна використовувати з TypeScript для додавання типізації.",
       "description": "TypeScript додає статичну типізацію в React-додатки, що допомагає уникнути помилок і покращує розробку. Для цього використовуються типи для пропсів, стану та хуків.",
-      "resources": [
-        "https://react.dev/learn/typescript"
-      ],
+      "resources": ["https://react.dev/learn/typescript"],
       "level": 2,
       "completed": false
     },
@@ -451,9 +374,7 @@
       "question": "Що таке React Hooks?",
       "answer": "React Hooks — це функції, які дозволяють використовувати стан та інші можливості React у функціональних компонентах.",
       "description": "Хуки, такі як `useState`, `useEffect`, `useContext`, дозволяють керувати станом, побічними ефектами та контекстом у функціональних компонентах без використання класів.",
-      "resources": [
-        "https://react.dev/reference/react"
-      ],
+      "resources": ["https://react.dev/reference/react"],
       "level": 2,
       "completed": false
     },
@@ -462,9 +383,7 @@
       "question": "Як використовувати React з Redux?",
       "answer": "React можна інтегрувати з Redux для керування глобальним станом.",
       "description": "Redux — це бібліотека для керування станом додатку. React-Redux надає хуки, такі як `useSelector` і `useDispatch`, для роботи з Redux у React-компонентах.",
-      "resources": [
-        "https://react-redux.js.org"
-      ],
+      "resources": ["https://react-redux.js.org"],
       "level": 3,
       "completed": false
     },
@@ -484,9 +403,7 @@
       "question": "Як використовувати React з GraphQL?",
       "answer": "React можна інтегрувати з GraphQL через Apollo Client або Relay.",
       "description": "GraphQL — це мова запитів для API. Apollo Client і Relay надають інструменти для роботи з GraphQL у React-додатках, включаючи кешування та керування станом.",
-      "resources": [
-        "https://www.apollographql.com/docs/react"
-      ],
+      "resources": ["https://www.apollographql.com/docs/react"],
       "level": 3,
       "completed": false
     },
@@ -495,9 +412,7 @@
       "question": "Що таке React Native?",
       "answer": "React Native — це фреймворк для створення мобільних додатків з використанням React.",
       "description": "React Native дозволяє розробляти крос-платформенні мобільні додатки, використовуючи JavaScript і React. Він компілюється в нативні компоненти для iOS та Android.",
-      "resources": [
-        "https://reactnative.dev"
-      ],
+      "resources": ["https://reactnative.dev"],
       "level": 2,
       "completed": false
     },
@@ -506,9 +421,7 @@
       "question": "Як використовувати React з Webpack?",
       "answer": "Webpack використовується для збірки React-додатків.",
       "description": "Webpack — це модульний збірник, який дозволяє об'єднувати JavaScript, CSS та інші ресурси в бандли. Для React налаштовуються завантажувачі (loaders) та плагіни, такі як Babel.",
-      "resources": [
-        "https://webpack.js.org/guides/getting-started"
-      ],
+      "resources": ["https://webpack.js.org/guides/getting-started"],
       "level": 3,
       "completed": false
     },
@@ -528,9 +441,7 @@
       "question": "Як використовувати React з CSS-in-JS?",
       "answer": "CSS-in-JS дозволяє писати стилі прямо в JavaScript.",
       "description": "Бібліотеки, такі як styled-components або Emotion, дозволяють писати стилі в компонентах, що покращує модульність та ізоляцію стилів.",
-      "resources": [
-        "https://styled-components.com"
-      ],
+      "resources": ["https://styled-components.com"],
       "level": 2,
       "completed": false
     },
@@ -539,9 +450,7 @@
       "question": "Що таке React Concurrent Rendering?",
       "answer": "Concurrent Rendering — це можливість React працювати над кількома завданнями одночасно.",
       "description": "Concurrent Rendering дозволяє React призупиняти та відновлювати рендеринг, щоб забезпечити плавніший користувацький досвід. Це особливо корисно для додатків з високим навантаженням.",
-      "resources": [
-        "https://react.dev/blog/2021/06/08/the-plan-for-react-18"
-      ],
+      "resources": ["https://react.dev/blog/2021/06/08/the-plan-for-react-18"],
       "level": 3,
       "completed": false
     },
@@ -550,9 +459,7 @@
       "question": "Як використовувати React з SSR і CSR?",
       "answer": "SSR (Server-Side Rendering) і CSR (Client-Side Rendering) можна комбінувати в React.",
       "description": "SSR використовується для рендерингу на сервері, що покращує SEO та швидкість завантаження. CSR дозволяє динамічно оновлювати інтерфейс на клієнті. Next.js — популярний фреймворк для SSR і CSR.",
-      "resources": [
-        "https://nextjs.org/docs"
-      ],
+      "resources": ["https://nextjs.org/docs"],
       "level": 3,
       "completed": false
     },
@@ -562,39 +469,6 @@
       "answer": "🍏 звісно 🍏",
       "description": "Тому що React мені дуже подобається, і я вже багато з ним практикуюся",
       "resources": [],
-      "level": 1,
-      "completed": false
-    },
-    {
-      "id": "578a",
-      "question": "How much i need to learn React?",
-      "answer": "100 years",
-      "description": "Too much but maybe not",
-      "resources": [
-        "\"http://my-head.com.ua\""
-      ],
-      "level": 2,
-      "completed": false
-    },
-    {
-      "id": "007f",
-      "question": "What it means to be a human?",
-      "answer": "error",
-      "description": "Massive error attack on my head",
-      "resources": [
-        "https://google.com"
-      ],
-      "level": 3,
-      "completed": false
-    },
-    {
-      "id": "371c",
-      "question": "What your favorite movie?",
-      "answer": "Requiem for a dream",
-      "description": "sad true",
-      "resources": [
-        "https://imdb.com"
-      ],
       "level": 1,
       "completed": false
     }
