@@ -6,6 +6,7 @@ import { useFetch } from "../../hooks/useFetch";
 import cls from "./HomePage.module.css";
 import { SearchInput } from "../../components/SearchInput";
 import { Button } from "../../components/Button";
+import { Select } from "../../components/Select";
 
 const DEFAULT_PER_PAGE = 10;
 
@@ -84,17 +85,10 @@ export const HomePage = () => {
       <div className={cls.controlsContainer} ref={controlsContainerRef}>
         <SearchInput value={searchValue} onChange={onSearchChangeHandler} />
 
-        <select
-          value={sortSelectValue}
-          onChange={onSortSelectChangeHandler}
-          className={cls.select}>
-          <option value="">sort by</option>
-          <hr />
-          <option value="_sort=level">Level ASC</option>
-          <option value="_sort=-level">Level DESC</option>
-          <option value="_sort=completed">completed ASC</option>
-          <option value="_sort=-completed">completed DESC</option>
-        </select>
+        <Select
+          sortSelectValue={sortSelectValue}
+          onSortSelectChangeHandler={onSortSelectChangeHandler}></Select>
+
         <select
           value={countSelectValue}
           onChange={onCountSelectChangeHandler}
