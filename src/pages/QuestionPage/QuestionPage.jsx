@@ -68,7 +68,7 @@ export const QuestionPage = () => {
           </div>
 
           <h5 className={cls.cardTitle}>{card.question}</h5>
-          <p className={cls.cardDescription}>{card.description}</p>
+          <div className={cls.cardDescription}>{card.description}</div>
 
           <div className={cls.cardAnswers}>
             <label> short answer: </label>
