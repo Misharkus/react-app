@@ -18,7 +18,7 @@ export const MainLayout = () => {
             </Suspense>
           </main>
           <footer className={cls.footer}>
-            React question Cards Application | {currentYear} <br /> by John
+            React question Cards Application | {currentYear} <br /> by Mykhailo
           </footer>
         </div>
       </div>
