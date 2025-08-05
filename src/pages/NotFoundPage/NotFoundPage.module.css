@@ -1,4 +1,49 @@
-.title {
-    width: fit-content;
-    margin: 50 auto;
+.notFoundContainer {
+    width: 100%;
+    margin: 0 auto;
+    display: flex-start;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+    text-align: center;
+}
+
+.notFoundContent {
+    max-width: 500px;
+}
+
+.notFoundImage {
+    width: 300px;
+    margin-bottom: 2rem;
+}
+
+.notFoundTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.notFoundDescription {
+    font-size: 1.125rem;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.notFoundButton {
+    padding: 0.75rem 1.5rem;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.notFoundButton:hover {
+    background-color: #4338ca;
 }
