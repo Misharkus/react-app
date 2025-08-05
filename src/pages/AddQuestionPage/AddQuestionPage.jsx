@@ -8,8 +8,6 @@ import { QuestionForm } from "../../components/QuestionForm";
 
 const createCardAction = async (_prevState, formData) => {
   try {
-    await delayFn();
-
     const newQuestion = Object.fromEntries(formData);
     const resources = newQuestion.resources.trim();
     const isClearForm = newQuestion.clearForm; //formData.get("clearForm")

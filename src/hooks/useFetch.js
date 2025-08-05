@@ -10,7 +10,6 @@ export const useFetch = (callback) => {
         try {
             setIsLoading(true);
             setError("");
-            await delayFn();
 
             const response = await callback(arg);
 
